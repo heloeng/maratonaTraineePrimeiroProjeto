@@ -1,0 +1,206 @@
+body {
+  margin: 15px;
+}
+
+.topo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: static;
+}
+
+.container-topo {
+  background-color: #fb0707;
+}
+
+.img-esquerda {
+  position: absolute;
+}
+
+.img-direita {
+  position: relative;
+  left: 523px;
+}
+
+.logo {
+  position: relative;
+  left: 8px;
+  top: 20px;
+  z-index: 1;
+}
+
+.menuContainer {
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  margin-right: 26px;
+
+}
+
+.menuTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 70px;
+  justify-content: space-between;
+}
+
+.menuTitle button {
+  height: 30px;
+  width: 100px;
+  color: #d1c77f;
+  background-color: #a29750;
+}
+
+.menuTitle p {
+  font-size: 18px;
+  color: #90874c;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.conteudo {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.conteudo article {
+  background-color: #EFE9CC;
+  width: 50%;
+  padding: 20px;
+
+}
+
+
+
+.conteudo aside {
+  background-color: #d7d3b3;
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+#titulo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#titulo h2 {
+  color: #615b2d;
+}
+
+#listAside img {
+  width: 40%;
+  margin-bottom: 12px;
+}
+
+#conteudoAside {
+  margin: 0px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+#listAside {
+  display: flex;
+  gap: 15px;
+  flex-direction: row;
+  padding: 5px;
+}
+
+
+.nav li {
+  list-style: none;
+  font-size: 20px;
+  margin-top: 4px;
+}
+
+
+.nav li a {
+  color: #90874c;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  color: #fb0707;
+}
+
+footer {
+  color: #8a8455;
+}
+.menuTitle hr {
+	border: 0;
+	border-top: 1px solid #094CFA;
+}
+
+@media (max-width: 1300px) {
+  .conteudo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .topo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .menuContainer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -60px;
+    justify-content: space-between;
+    width: 580px;
+    margin: 0px;
+
+  }
+
+  .menuTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 780px;
+    justify-content: flex-end;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+
+  .img-direita {
+    position: relative;
+    left: 160px;
+    top: 185px;
+    width: 100%;
+  }
+
+  .conteudo article {
+    background-color: #EFE9CC;
+    width: 100%;
+    padding: 20px;
+  
+  }
+
+  .conteudo aside {
+    width: 100%;
+    }
+
+  body {
+    margin: 0px;
+  }
+
+}
